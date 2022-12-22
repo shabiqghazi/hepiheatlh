@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="bg-indigo-100 flex flex-col h-screen">
+    <div class="bg-cyan-600 h-16 flex justify-center items-center text-white">
+      <div class="w-12 text-center">
+        <a href="/page/home.html">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="font-bold grow text-center text-lg">
+        Cek Waktu Tidur Ideal
+      </div>
+      <div class="w-12"></div>
+    </div>
+    <div class="flex flex-col py-12 px-5 gap-3">
+      <div class="flex flex-col gap-2">
+        <label for="waktu">Waktu mulai tidur</label>
+        <input type="time" name="waktu" id="waktu" class="p-3 rounded-md" />
+      </div>
+      <div class="flex flex-col gap-2">
+        <label for="kegiatan">Kegiatan yang sudah dilakukan</label>
+        <select name="kegiatan" class="p-3 rounded-md">
+          <option value="1">Olahraga Berat</option>
+          <option value="2">Olahraga Ringan</option>
+          <option value="3">Kegiatan berat non-olahraga</option>
+          <option value="4">Kegiatan ringan non-olahraga</option>
+          <option value="5">Tidak Olahraga</option>
+        </select>
+      </div>
+      <div class="flex pt-5">
+        <a
+          href="/page/task1.1.html"
+          class="bg-cyan-600 text-white py-2 w-full mx-14 text-center rounded-full shadow-lg"
+          >Submit</a
+        >
+      </div>
+    </div>
+  </body>
+</html>

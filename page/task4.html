@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+  </head>
+  <body class="bg-indigo-100 flex flex-col h-screen">
+    <div class="bg-cyan-600 h-16 flex justify-center items-center text-white">
+      <div class="w-12 text-center">
+        <a href="/page/home.html">
+          <i class="fa-solid fa-chevron-left"></i>
+        </a>
+      </div>
+      <div class="font-bold grow text-center text-lg">
+        Cek Waktu Tidur Ideal
+      </div>
+      <div class="w-12"></div>
+    </div>
+    <div class="flex flex-col py-12 px-5 gap-3">
+      <div class="flex flex-col gap-2">
+        <label for="kebiasaan">Kebiasaan Berolahraga</label>
+        <select name="kebiasaan" class="p-3 rounded-md">
+          <option value="1">Sangat Jarang</option>
+          <option value="2">Sesekali</option>
+          <option value="3">Rutin sebulan sekali</option>
+          <option value="4">Rutin sebulan dua kali</option>
+          <option value="5">Rutin seminggu sekali</option>
+          <option value="5">Rutin seminggu dua kali</option>
+          <option value="6">Setiap hari</option>
+        </select>
+      </div>
+      <div class="flex flex-col gap-2">
+        <label for="pekerjaan">Jenis Pekerjaan</label>
+        <select name="pekerjaan" class="p-3 rounded-md">
+          <option value="1">Pekerjaan fisik tingkat tinggi</option>
+          <option value="2">Pekerjaan fisik tingkat rendah</option>
+          <option value="3">Pekerja lapangan</option>
+          <option value="4">Pekerja full office</option>
+          <option value="5">Pekerjaan depan komputer</option>
+        </select>
+      </div>
+      <div class="flex pt-5">
+        <a
+          href="/page/task4.1.html"
+          class="bg-cyan-600 text-white py-2 w-full mx-14 text-center rounded-full shadow-lg"
+          >Ukur Urgensi Olahraga</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
